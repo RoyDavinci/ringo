@@ -1,0 +1,43 @@
+.about__section_center__container {
+	background: url("../../images/pexels-photo-509922.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90vh;
+}
+.about__section_center__container h1 {
+	font-weight: 700;
+}
+.about__buttonContainer button {
+	margin: 0px 10px;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.about__buttonContainer .started {
+	background-color: #4285f4;
+	color: #ffff;
+}
+.about__buttonContainer .contact {
+	background-color: #0f9d58;
+	color: #ffff;
+}
+.about__container section article ol {
+	list-style: disc;
+}
+.about__container section article ol li {
+	margin: 10px 0px;
+}
+.about__container section article ol li h2 {
+	font-size: 20px;
+	margin: 10px 0px;
+	font-weight: 600;
+}
+/* .vision__container {
+	display: flex;
+	justify-content: space-between;
+}
+.vision__container div,
+.vision__container img {
+	flex: 1;
+} */

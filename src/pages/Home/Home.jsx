@@ -5,6 +5,7 @@ import Airtel from "../../images/Airtel.svg.png";
 import Etisalat from "../../images/9mobile.png";
 import "./home.css";
 import { Header, Hero, Idea, Footer, Payment } from "../../components/index";
+import NewHeroImage from "../../images/undraw_world_re_768g.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -12,7 +13,12 @@ export const Home = () => {
 	return (
 		<div>
 			<Header></Header>
-			<Hero></Hero>
+			<Hero
+				img={NewHeroImage}
+				heading='Payments tool for software companies'
+				text='From checkout to global sales tax compliance, companies around the
+						world use Flowbite to simplify their payment stack.'
+			></Hero>
 			{/* <section className='home__partnersContainer p-12 '>
 				<h1 className='text-center my-12'>Our Partners Include</h1>
 				<article className='partnersContainer__logo'>

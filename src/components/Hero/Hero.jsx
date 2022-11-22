@@ -2,19 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import HeroImage from "../../images/2022-11-20 02.21.25.jpg";
-import NewHeroImage from "../../images/undraw_world_re_768g.svg";
 
-export const Hero = () => {
+export const Hero = ({ img, heading, text }) => {
 	return (
 		<section className='bg-white '>
 			<div className='grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
 				<div className='mr-auto place-self-center lg:col-span-7 text-left'>
 					<h1 className='max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl '>
-						Payments tool for software companies
+						{heading}
 					</h1>
 					<p className='max-w-2xl  mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl '>
-						From checkout to global sales tax compliance, companies around the
-						world use Flowbite to simplify their payment stack.
+						{text}
 					</p>
 					<Link
 						to='/'
@@ -42,7 +40,7 @@ export const Hero = () => {
 					</Link>
 				</div>
 				<div className=' lg:mt-0 lg:col-span-5 lg:flex'>
-					<img src={NewHeroImage} alt='mockup' />
+					<img src={img} alt='mockup' />
 				</div>
 			</div>
 		</section>
