@@ -1,0 +1,17 @@
+.home__partnersContainer article {
+	display: flex;
+	justify-content: space-between;
+}
+.home__partnersContainer article img {
+	width: 100px;
+	/* height: 50px; */
+}
+/* .home__partnersContainer{
+    border: 0.5px solid #ccc;
+} */
+.carousel .thumbs-wrapper {
+	display: none;
+}
+.carousel .slide div img {
+	width: 30%;
+}
